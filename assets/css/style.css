@@ -17,7 +17,7 @@ body {
 
 .custom-header {
     padding: 22px 104px 21px 36px;
-    background: #ead5dd;
+    background: #F8DEE7;
 
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .menu-nav ul li a.active {
-    color: #ff0080;
+    color: #E8098D;
 }
 
 .icon-box {
@@ -108,7 +108,7 @@ body {
     font-family: "Merienda", cursive;
     font-size: 38px;
     font-weight: 700;
-    color: #000;
+    color: #221F20;
     line-height: 1;
 }
 
@@ -125,14 +125,14 @@ body {
 
 .about-content {
     padding: 63px 98px 51px 55px;
-    background: #f4f4f4;
+    background: #FFFFFF;
     height: 100%;
 }
 
 .about-content h2 {
     font-size: 44px;
     font-weight: 700;
-    color: #ff0090;
+    color: #E8098D;
     margin-bottom: 53px;
     font-family: "Merienda", cursive;
 }
@@ -146,20 +146,67 @@ body {
 .about-content h3 {
     font-size: 38px;
     font-weight: 600;
-    color: #ff0090;
+    color: #E8098D;
     margin-bottom: 50px;
     font-family: "Merienda", cursive;
 }
 
 .shop-btn {
     text-decoration: none;
-    background: #ff0090;
-    color: #fff;
+    background: #E8098D;
+    color: #FFFFFF;
     padding: 20px 90px;
     border-radius: 20px;
     display: inline-block;
     font-size: 28px;
 }
-.mixing-section{
-    background:#ececec;
+
+
+.mixing-section {
+    background: #ececec;
+    padding: 0px 0;
+}
+
+.mixing-image {
+    position: relative;
+    z-index: 2;
+    margin-right: -120px;
+    padding: 90px 0 90px 0;
+}
+
+.mixing-image img {
+    width: 100%;
+    height: 522px;
+    display: block;
+}
+
+.mixing-content {
+    background: #f40093;
+    padding: 129px 108px 90px 200px;
+    height: auto;
+    position: relative;
+}
+
+.mixing-content h2 {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 25px;
+    font-family: "Merienda", cursive;
+}
+
+.mix-item {
+    margin-bottom: 25px;
+}
+
+.mix-item h3 {
+    font-size: 36px;
+    color: #fff;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+.mix-item p {
+    font-size: 28px;
+    color: #fff;
+    margin: 0;
 }
