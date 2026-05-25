@@ -181,7 +181,7 @@ body {
 }
 
 .mixing-content {
-    background: #f40093;
+    background: #E8098D;
     padding: 129px 108px 90px 200px;
     height: auto;
     position: relative;
@@ -212,8 +212,6 @@ body {
 }
 
 
-/* shop_page */
-
 .product-content {
     padding: 60px 47px 43px 108px;
 }
@@ -222,7 +220,6 @@ body {
     font-size: 40px;
     font-weight: bold;
     font-family: "Merienda", cursive;
-    margin-bottom: 15px;
 }
 
 .product-size {
@@ -232,19 +229,19 @@ body {
 }
 
 .product-content h3 {
-    color: #007d8f;
+    color: #007A87;
     font-size: 40px;
     margin-bottom: 15px;
 }
 
 .cart-btn {
-    background: #ff0090;
+    background: #E8098D;
     color: #fff;
     text-decoration: none;
     padding: 23px 82px;
     border-radius: 15px;
     display: inline-block;
-    margin-bottom: 50px;
+    margin-bottom: 29px;
     font-size: 28px;
 }
 
@@ -270,28 +267,28 @@ body {
 
 .free-text {
     position: absolute;
-    top: 30px;
+    top: 27px;
     z-index: 2;
 }
 
 .free-text h3 {
     color: #fff;
     font-size: 36px;
-    margin-bottom: 15px;
-    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-left: 28px;
 }
 
 .free-text ul {
     list-style: none;
-    padding-left: 10px;
+    padding-left: 0px;
     margin: 0;
 }
 
 .free-text ul li {
     color: #fff;
     font-size: 28px;
-    padding: 15px 0;
-    border-top: 2px solid rgba(255, 255, 255, .7);
+    padding: 15px 28px;
+    border-top: 2px solid white;
     width:245px;
 }
 
