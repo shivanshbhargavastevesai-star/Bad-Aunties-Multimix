@@ -220,7 +220,7 @@ body {
 
 
 .product-content {
-    padding: 60px 47px 43px 108px;
+    padding: 60px 47px 43px 106px;
 }
 
 .product-content h2 {
@@ -561,19 +561,20 @@ body {
     line-height: 1.1;
     color: #E8098D;
     font-weight: 700;
-    margin-bottom: 49px;
     padding-right: 60px;
 }
 
 .story-content p {
+    margin: 49px 0 0 0;
     font-size: 28px;
     color: #000000;
     font-weight: 400;
     line-height: 1.6;
+    
 }
 
 .quote-box {
-    margin: 49px 0;
+    margin: 49px 0 0 0;
 }
 
 .quote-box h3 {
@@ -599,7 +600,7 @@ body {
     text-decoration: none;
     border-radius: 14px;
     font-size: 28px;
-    margin-top: 20px;
+    margin-top: 49px;
 }
 
 
