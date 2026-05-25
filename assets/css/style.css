@@ -222,6 +222,12 @@ body {
     font-family: "Merienda", cursive;
 }
 
+.sup-text {
+    font-size: 12px;
+    vertical-align: super;
+    font-family: 'MyFont', sans-serif;
+}
+
 .product-size {
     display: block;
     font-size: 32px;
@@ -289,7 +295,7 @@ body {
     font-size: 28px;
     padding: 15px 28px;
     border-top: 2px solid white;
-    width:245px;
+    width: 245px;
 }
 
 .bottom-text {
@@ -308,7 +314,7 @@ body {
 
 
 
- /* about_page */
+/* about_page */
 
 .story-section {
     width: 100%;
@@ -391,4 +397,3 @@ body {
     border-radius: 14px;
     font-size: 28px;
 }
-
