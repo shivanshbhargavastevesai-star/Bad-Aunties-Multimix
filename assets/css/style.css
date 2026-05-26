@@ -212,6 +212,174 @@ body {
 }
 
 
+.newsletter-section{
+    background-image: url("../image/water-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 59px 298px 92px 297px;
+}
+
+
+
+.newsletter-col h2{
+    font-family: "Merienda", cursive;
+    font-size: 49px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 19px;
+    font-weight: 900;
+}
+
+.newsletter-form{
+    max-width: 1150px;
+    margin: auto;
+}
+
+.newsletter-form input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background: #ececec;
+    padding: 18.5px 592px 18.5px 58px;
+    font-size: 28px;
+}
+
+
+
+@media(max-width:1200px){
+
+    .newsletter-col h2{
+        font-size:58px;
+    }
+
+    .newsletter-form input{
+        height:90px;
+        font-size:30px;
+    }
+
+}
+
+@media(max-width:991px){
+
+    .newsletter-section{
+        padding:60px 20px;
+    }
+
+    .newsletter-col h2{
+        font-size:46px;
+    }
+
+    .newsletter-form input{
+        height:80px;
+        font-size:26px;
+        padding:0 30px;
+    }
+
+}
+
+
+.footer-section{
+    background:#047f8c;
+    position:relative;
+}
+
+
+.footer-row{
+    display:flex;
+    justify-content:space-between;
+    gap:50px;
+    padding: 65px 40px 73px 360px;
+}
+
+.footer-col{
+    flex:1;
+}
+
+.footer-col h2{
+    font-family:"Merienda", cursive;
+    color:#fff;
+    font-size:38px;
+    margin-bottom:41px;
+}
+
+.footer-col ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.footer-col ul li{
+    margin-bottom:41px;
+}
+
+.footer-col ul li a{
+    color:#fff;
+    text-decoration:none;
+    font-size:24px;
+
+}
+
+.mission-col p{
+    color:#fff;
+    font-size:28px;
+    max-width:420px;
+    margin-bottom:46px;
+}
+
+.social-icons{
+    display:flex;
+    gap:20px;
+}
+
+.social-icons a{
+    width:60px;
+    height:60px;
+    border:2px solid #fff;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    text-decoration:none;
+    font-size:26px;
+}
+
+.footer-cactus{
+    position:absolute;
+    left:-50px;
+    bottom:0;
+}
+
+.footer-cactus img{
+    width:400px;
+}
+
+
+@media(max-width:1200px){
+
+.footer-row{
+    padding-left:220px;
+}
+
+.footer-col h2{
+    font-size:38px;
+}
+
+.footer-col ul li a,
+.mission-col p{
+    font-size:22px;
+}
+
+.footer-cactus img{
+    width:300px;
+}
+
+}
+
+
+
 
 
 
